@@ -1,0 +1,131 @@
+#main {
+    margin:auto;
+    position:fixed;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display:inline-block;
+}
+
+#content {
+    float:right;
+    width: fit-content;
+    margin-top: 11%;
+    margin-right: 5%;
+}
+
+#list-1, #list-2, #list-3 {
+    vertical-align: baseline;
+    padding-left: 0px;
+    display:inline-block;
+
+}
+
+#list-1, #list-2 {
+    margin-right: 30px;
+}
+
+#bar {
+    background-color: #35353b;
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 12px;
+    color: #d4d4d4;
+    box-shadow: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+#bar:focus {
+    outline: none;
+    caret-color: transparent;
+}
+
+#image-full {
+    width: 32.5%;
+    height: 50%;
+    display: inline-block;
+}
+
+#image-small {
+    display: none;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: normal;
+    text-shadow: 2px 1px #d4d4d4;
+}
+
+#item {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#bg {
+    background-color: #35353b;
+    padding: 5px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #151517;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    user-select: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: inherit; 
+    text-decoration:none; 
+    cursor:pointer;
+    color: #d7dade;
+}
+
+img:hover {
+    transform: scale(1.01)
+}
+
+@media only screen and (max-width: 1350px){
+    #image-small {
+        width: 625px;
+        height: 325px;
+        display: inline-block;
+    }
+    
+    #image-full {
+        display: none;
+    }
+ 
+    #content {
+        display: inline-block;
+        width: fit-content;
+        width:100%;
+        height: 100%;
+        margin-top: 1%;
+        padding-left: 0%;
+        margin-right: 0%;
+    }
+    
+    #list-1 {
+        margin-left: 10%;
+    }
+    
+    #list-2 {
+        margin-left: 13%
+    }
+    
+    #list-3 {
+        margin-left: 14%;
+    }
+}

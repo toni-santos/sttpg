@@ -1,1 +1,3 @@
 # sttpg
+
+simple startpage :)
